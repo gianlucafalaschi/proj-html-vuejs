@@ -6,9 +6,16 @@
 <template>
     <section class="founder">
         <div class="ms-container-80">
-            <div class="ms-row">
-                <div class="ms-col-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, placeat. Accusamus labore temporibus magnam quos ex corporis voluptate molestiae iusto aut quis? Voluptate ratione dicta quos dignissimos exercitationem soluta asperiores.</div>
-                <div class="ms-col-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iste dolorem placeat sit, beatae laudantium? Nisi nobis atque totam quibusdam error. Tenetur totam officia eligendi veritatis eaque voluptatum distinctio architecto!</div>
+            <div class="ms-row d-flex my-5">
+                <div class="ms-col-50 ms-col-50-left my-5 pe-5">
+                    <h3>Hey there, my name is John Doe. I'm the founder of the Brain Academy</h3>
+                    <div class="signature-image-container mt-4 d-flex justify-content-center" >
+                        <img src="../assets/img/sign.jpg" alt="founder's signature">
+                    </div>
+                </div>
+                <div class="ms-col-50 ms-col-50-right my-5">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary</p>
+                </div>
             </div>
         </div>
     </section>
@@ -16,5 +23,12 @@
 
 <style scoped lang="scss">
 @use'../style/partials/_variables' as *;
+
+section {
+    background-color:$color-first;
+}
+
+
+
 
 </style>
