@@ -4,6 +4,7 @@ import PageHeader from './components/PageHeader.vue';
 import PageFooter from './components/PageFooter.vue';
 import AppHero from './components/AppHero.vue';
 import AppFounder from './components/AppFounder.vue';
+import AppNewCourses from './components/AppNewCourses.vue';
 
 
 export default  {
@@ -12,6 +13,7 @@ export default  {
         PageFooter,
         AppHero,
         AppFounder,
+        AppNewCourses,
     },
     data() {
       return {
@@ -33,6 +35,7 @@ export default  {
   <main>
     <AppHero></AppHero>
     <AppFounder></AppFounder>
+   <AppNewCourses></AppNewCourses>
   </main>
   <PageFooter></PageFooter>
 </template>
