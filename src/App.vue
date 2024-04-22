@@ -6,14 +6,26 @@ export default  {
     components: {
         PageHeader,
         PageFooter,
-    }
+    },
+    data() {
+      return {
+        headerLinks: [
+          {
+            text: 'Courses',
+          },
+          {
+            text: 'Course Formats',
+          },
+        ]
+      };
+    },
 }
 </script>
 
 <template>
   <PageHeader></PageHeader>
   <main>
-    
+
   </main>
   <PageFooter></PageFooter>
 </template>
