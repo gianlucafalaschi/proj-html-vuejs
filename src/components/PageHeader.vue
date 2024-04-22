@@ -1,5 +1,9 @@
 <script>
-
+export default {
+    props: {
+        headerInfo: Object
+    },
+}
 </script>
 
 
