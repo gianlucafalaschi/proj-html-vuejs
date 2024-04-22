@@ -3,6 +3,7 @@
 import PageHeader from './components/PageHeader.vue';
 import PageFooter from './components/PageFooter.vue';
 import AppHero from './components/AppHero.vue';
+import AppFounder from './components/AppFounder.vue';
 
 
 export default  {
@@ -10,6 +11,7 @@ export default  {
         PageHeader,
         PageFooter,
         AppHero,
+        AppFounder,
     },
     data() {
       return {
@@ -30,6 +32,7 @@ export default  {
   <PageHeader></PageHeader>
   <main>
     <AppHero></AppHero>
+    <AppFounder></AppFounder>
   </main>
   <PageFooter></PageFooter>
 </template>
