@@ -2,14 +2,14 @@
 /* import { info } from 'sass'; */
 import PageHeader from './components/PageHeader.vue';
 import PageFooter from './components/PageFooter.vue';
-import StartRevolution from './components/StartRevolution.vue';
+import AppHero from './components/AppHero.vue';
 
 
 export default  {
     components: {
         PageHeader,
         PageFooter,
-        StartRevolution,
+        AppHero,
     },
     data() {
       return {
@@ -29,7 +29,7 @@ export default  {
 <template>
   <PageHeader></PageHeader>
   <main>
-    <StartRevolution></StartRevolution>
+    <AppHero></AppHero>
   </main>
   <PageFooter></PageFooter>
 </template>
