@@ -1,15 +1,15 @@
 <script>
-import AppHeader from './components/AppHeader.vue';
+import PageHeader from './components/PageHeader.vue';
 
 export default  {
     components: {
-        AppHeader,
+        PageHeader,
     }
 }
 </script>
 
 <template>
-  <AppHeader></AppHeader>
+  <PageHeader></PageHeader>
 </template>
 
 <style lang="scss">
