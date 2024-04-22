@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h1>Courses  g</h1>
+  <h1>Courses</h1>
 </template>
 
 <style lang="scss">
