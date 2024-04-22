@@ -4,7 +4,7 @@
 
 
 <template>
-    <h1>Sono l'header</h1>
+    <h1>Sono il footer</h1>
 </template>
 
 <style scoped lang="scss">
