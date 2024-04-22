@@ -5,6 +5,12 @@
 
 <template>
     <section class="founder">
+        <div class="ms-container-85">
+            <div class="ms-row ms-row-offers d-flex rounded-2 ">
+                <div class="ms-col-50 p-4">Ciao</div>
+                <div class="ms-col-50 p-4">ciao</div>
+            </div>
+        </div>
         <div class="ms-container-80">
             <div class="ms-row d-flex my-5">
                 <div class="ms-col-50 ms-col-50-left my-5 pe-5">
@@ -28,7 +34,16 @@ section {
     background-color:$color-first;
 }
 
+.ms-container-85 {
+    background-color: pink;
+    width: 85%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px dashed  black;
+}
 
-
-
+.ms-row-offers {
+    border: 1px dashed red;
+}
 </style>
