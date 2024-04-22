@@ -1,6 +1,7 @@
 <script>
 import PageHeader from './components/PageHeader.vue';
 import PageFooter from './components/PageFooter.vue';
+import { info } from 'sass';
 
 export default  {
     components: {
