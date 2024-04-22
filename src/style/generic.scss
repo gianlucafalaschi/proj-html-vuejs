@@ -7,3 +7,16 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+
+.ms-container-80 {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px dashed  black;
+}
+
+.ms-row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
