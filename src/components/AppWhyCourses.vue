@@ -9,7 +9,7 @@
             <div class="ms-row text-center">
                 <h2 class="py-4 mb-0">Why my Courses</h2>
             </div>
-            <div class="ms-row d-flex flex-wrap pb-4">
+            <div class="ms-row d-flex flex-wrap pb-5">
                 <!-- card 1 -->
                 <div class="ms-card d-flex py-4 px-3">
                     <div class="ms-card-icon me-3">
@@ -21,14 +21,39 @@
                     </div>
                 </div>
                 <!--/ card 1 -->
-                <!-- card 2 -->
                 
+                <!-- card 2 -->
+                <div class="ms-card d-flex py-4 px-3">
+                    <div class="ms-card-icon me-3">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <div class="ms-card-description">
+                        <h4 class="ms-card-title  pb-3 mb-0">Accelerated learning</h4>
+                        <p class="ms-card-subtitle pb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus assumenda, aut veniam corrupti fugit, a quibusdam reprehenderit suscipit nesciunt quidem consequatur voluptatum laudantium excepturi ipsam accusamus neque consequuntur! Dolor, quisquam.</p>
+                    </div>
+                </div>
                 <!--/ card 2 -->
                 <!-- card 3 -->
-                
+                <div class="ms-card d-flex py-4 px-3">
+                    <div class="ms-card-icon me-3">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                    </div>
+                    <div class="ms-card-description">
+                        <h4 class="ms-card-title  pb-3 mb-0">Productivity</h4>
+                        <p class="ms-card-subtitle pb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus assumenda, aut veniam corrupti fugit, a quibusdam reprehenderit suscipit nesciunt quidem consequatur voluptatum laudantium excepturi ipsam accusamus neque consequuntur! Dolor, quisquam.</p>
+                    </div>
+                </div>
                 <!--/ card 3 -->
                 <!-- card 4 -->
-                
+                <div class="ms-card d-flex py-4 px-3">
+                    <div class="ms-card-icon me-3">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="ms-card-description">
+                        <h4 class="ms-card-title  pb-3 mb-0">Life Coaching</h4>
+                        <p class="ms-card-subtitle pb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus assumenda, aut veniam corrupti fugit, a quibusdam reprehenderit suscipit nesciunt quidem consequatur voluptatum laudantium excepturi ipsam accusamus neque consequuntur! Dolor, quisquam.</p>
+                    </div>
+                </div>
                 <!--/ card 4 -->
             </div>
         </div>
