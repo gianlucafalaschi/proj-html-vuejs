@@ -10,14 +10,17 @@ export default {
 <template>
     <header>
         <div class="ms-container-80">
-            <div class="ms-row d-flex justify-content-between align-items-center py-4">
+            <div class="ms-row d-flex justify-content-between align-items-center flex-wrap py-4">
                 <div class="ms-logo-section d-flex">
                     <img src="../assets/img/MasterStudy-1.svg" alt="">
                 </div>
                 <div class="ms-links-socials d-flex">
                     <div class="ms-links-section me-4">
                         <nav>
-                            <ul class="ms-links d-flex align-items-center mb-0">
+                            <ul class="ms-links d-flex align-items-center flex-wrap mb-0">
+                                <!--  dopo aver passato al'array headerInfos  nelle props di PageHeader l'array headerLinks,
+                                Per ogni elemento di nell'array headerInfos,
+                                stampo text  -->
                                 <li v-for="headerInfo in headerInfos">{{ headerInfo.text }}</li>
                             </ul>
                         </nav>

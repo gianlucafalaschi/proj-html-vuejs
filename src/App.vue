@@ -24,6 +24,15 @@ export default  {
           {
             text: 'Course Formats',
           }, 
+          {
+            text: 'Add Course',
+          },
+          {
+            text: 'Pages',
+          }, 
+          {
+            text: 'Demos',
+          }, 
         ]
       };
     },
@@ -31,7 +40,8 @@ export default  {
 </script>
 
 <template>
-  <PageHeader :headerInfos="headerLinks"></PageHeader>
+  <!--  passo al'array headerInfos  nelle props di PageHeader l'array headerLinks  -->
+  <PageHeader :headerInfos="headerLinks"></PageHeader> 
   <main>
     <AppHero></AppHero>
     <AppFounder></AppFounder>
