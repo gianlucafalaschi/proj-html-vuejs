@@ -5,6 +5,13 @@
 
 <template>
     <section class="ms-book-sales">
+        <div class="ms-options-box bg-white d-flex flex-column align-items-center py-2 gap-3 text-black">
+            <a href="#"><i class="fa-solid fa-desktop"></i></a>
+            <a href="#"><i class="fa-regular fa-life-ring"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-solid fa-desktop"></i></a>
+            <a href="#"><i class="fa-solid fa-mobile-screen-button"></i></a>
+        </div>
         <div class="ms-container-80">
             <div class="ms-row">
                 <div class="ms-col-50 ms-col-50-left text-center d-flex flex-column align-items-center  py-5">
@@ -31,7 +38,21 @@ section {
     background-image:url('../assets/img/slider_1-1917x607-1914x606.jpg');
     background-position: top right;
     background-size: cover;
+    position: relative;
     
+}
+
+.ms-options-box {
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    
+
+    i {
+       color:$color-third ;
+        
+    }
 }
 
 .ms-row {
