@@ -22,37 +22,13 @@
                 </div>
                 <!--/ card 1 -->
                 <!-- card 2 -->
-                <div class="ms-card d-flex py-4 px-3">
-                    <div class="ms-card-icon me-3">
-                        <i class="fa-solid fa-briefcase"></i>
-                    </div>
-                    <div class="ms-card-description">
-                        <h4 class="ms-card-title  pb-3 mb-0">Entrapreneurship</h4>
-                        <p class="ms-card-subtitle pb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus assumenda, aut veniam corrupti fugit, a quibusdam reprehenderit suscipit nesciunt quidem consequatur voluptatum laudantium excepturi ipsam accusamus neque consequuntur! Dolor, quisquam.</p>
-                    </div>
-                </div>
+                
                 <!--/ card 2 -->
                 <!-- card 3 -->
-                <div class="ms-card d-flex py-4 px-3">
-                    <div class="ms-card-icon me-3">
-                        <i class="fa-solid fa-briefcase"></i>
-                    </div>
-                    <div class="ms-card-description">
-                        <h4 class="ms-card-title  pb-3 mb-0">Entrapreneurship</h4>
-                        <p class="ms-card-subtitle pb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus assumenda, aut veniam corrupti fugit, a quibusdam reprehenderit suscipit nesciunt quidem consequatur voluptatum laudantium excepturi ipsam accusamus neque consequuntur! Dolor, quisquam.</p>
-                    </div>
-                </div>
+                
                 <!--/ card 3 -->
                 <!-- card 4 -->
-                <div class="ms-card d-flex py-4 px-3">
-                    <div class="ms-card-icon me-3">
-                        <i class="fa-solid fa-briefcase"></i>
-                    </div>
-                    <div class="ms-card-description">
-                        <h4 class="ms-card-title  pb-3 mb-0">Entrapreneurship</h4>
-                        <p class="ms-card-subtitle pb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus assumenda, aut veniam corrupti fugit, a quibusdam reprehenderit suscipit nesciunt quidem consequatur voluptatum laudantium excepturi ipsam accusamus neque consequuntur! Dolor, quisquam.</p>
-                    </div>
-                </div>
+                
                 <!--/ card 4 -->
             </div>
         </div>
@@ -76,7 +52,23 @@ section {
     margin-bottom:12px;
     background-color: $color-first;
     border-left: 3px solid $color-second;
+    box-shadow: 5px 10px 18px $color-sixth;
 }
+
+.ms-card:hover {
+    background-color:$color-second ;
+    
+    .ms-card-icon {
+        color: white;
+    }
+
+    .ms-card-title {
+        color: black;
+    }
+    .ms-card-subtitle {
+        color: black;
+    }
+}   
 
 .ms-image-container {
     width: 100%;
