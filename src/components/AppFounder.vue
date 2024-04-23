@@ -7,16 +7,33 @@
     <section class="founder">
         <div class="ms-container-85">
             <div class="ms-row ms-row-offers d-flex rounded-2 ">
-                <div class="ms-col-50 p-4">
-                    <div class="ms-title-offer">
-                        <h4>Limited Sale: All courses with 55% off</h4>
+                <div class="ms-col-50  ms-col-50-offer-left p-4">
+                    <div class="ms-title-offer mb-3">
+                        <h4><span class="text-white">Limited Sale:</span> <span>All courses with 55% off</span></h4>
                     </div>
                     <div class="ms-input">
                         <input class="input-email" type="email" placeholder="Enter your email">
-                        <button class="ms-button" type="button">SUBCRIBE</button>
+                        <button class="ms-button" type="button">SUBSCRIBE</button>
                     </div>
                 </div>
-                <div class="ms-col-50 p-4">ciao</div>
+                <div class="ms-col-50 ms-col-50-offer-right d-flex flex-wrap align-items-center gap-4 p-4">
+                    <div class="ms-time-container">
+                        <div class="text-center text-white fw-bold fs-1">26</div>
+                        <div class="text-center fw-bold">Days</div>
+                    </div>
+                    <div class="ms-time-container">
+                        <div class="text-center text-white fw-bold fs-1">01</div>
+                        <div class="text-center fw-bold">Hours</div>
+                    </div>
+                    <div class="ms-time-container">
+                        <div class="text-center text-white fw-bold fs-1">47</div>
+                        <div class="text-center fw-bold">Minutes</div>
+                    </div>
+                    <div class="ms-time-container">
+                        <div class="text-center text-white fw-bold fs-1">31</div>
+                        <div class="text-center fw-bold">Seconds</div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="ms-container-80">
@@ -65,6 +82,7 @@ section {
 
 .ms-row-offers {
     border: 1px dashed red;
+    background-color: $color-second;
 }
 
 .ms-input {
@@ -76,14 +94,23 @@ section {
 
 .input-email {
     border-radius: 20px;
+    border: none;
     width: 80%;
-    
+    font-size: 14px;
+    padding: 6px 8px;
 }
 
 .ms-button {
     border-radius: 20px;
+    border: none;
     position: absolute;
     left: 80%;
     transform: translate(-50%);
+    font-size: 14px;
+    padding: 6px 8px;
+    color: white;
+    background-color: $color-third;
 }
+
+
 </style>
