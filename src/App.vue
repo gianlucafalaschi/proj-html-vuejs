@@ -31,7 +31,7 @@ export default  {
 </script>
 
 <template>
-  <PageHeader></PageHeader>
+  <PageHeader :headerInfos="headerLinks"></PageHeader>
   <main>
     <AppHero></AppHero>
     <AppFounder></AppFounder>

@@ -1,7 +1,7 @@
 <script>
 export default {
     props: {
-        headerInfos: Object
+        headerInfos: Array
     },
 }
 </script>
@@ -12,17 +12,13 @@ export default {
         <div class="ms-container-80">
             <div class="ms-row d-flex justify-content-between align-items-center py-4">
                 <div class="ms-logo-section d-flex">
-                    Immagine logo
+                    <img src="../assets/img/MasterStudy-1.svg" alt="">
                 </div>
                 <div class="ms-links-socials d-flex">
                     <div class="ms-links-section me-4">
                         <nav>
                             <ul class="ms-links d-flex align-items-center mb-0">
-                                <li v-for="headerInfo in headerInfos">Ciao</li>
-                                <li>Ciao</li>
-                                <li>Ciao</li>
-                                <li>Ciao</li>
-                                <li>Ciao</li>
+                                <li v-for="headerInfo in headerInfos">{{ headerInfo.text }}</li>
                             </ul>
                         </nav>
                     </div>
