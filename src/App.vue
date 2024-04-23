@@ -6,6 +6,7 @@ import AppHero from './components/AppHero.vue';
 import AppFounder from './components/AppFounder.vue';
 import AppNewCourses from './components/AppNewCourses.vue';
 import AppBookSales from './components/AppBookSales.vue';
+import AppWhyCourses from './components/AppWhyCourses.vue';
 
 
 export default  {
@@ -16,6 +17,7 @@ export default  {
         AppFounder,
         AppNewCourses,
         AppBookSales,
+        AppWhyCourses
     },
     data() {
       return {
@@ -63,6 +65,7 @@ export default  {
     <AppFounder></AppFounder>
    <AppNewCourses></AppNewCourses>
    <AppBookSales></AppBookSales>
+   <AppWhyCourses></AppWhyCourses>
   </main>
   <PageFooter></PageFooter>
 </template>
