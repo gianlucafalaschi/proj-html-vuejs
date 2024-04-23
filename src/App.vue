@@ -7,6 +7,7 @@ import AppFounder from './components/AppFounder.vue';
 import AppNewCourses from './components/AppNewCourses.vue';
 import AppBookSales from './components/AppBookSales.vue';
 import AppWhyCourses from './components/AppWhyCourses.vue';
+import AppStatistics from './components/AppStatistics.vue';
 
 
 export default  {
@@ -17,7 +18,8 @@ export default  {
         AppFounder,
         AppNewCourses,
         AppBookSales,
-        AppWhyCourses
+        AppWhyCourses,
+        AppStatistics,
     },
     data() {
       return {
@@ -66,6 +68,7 @@ export default  {
    <AppNewCourses></AppNewCourses>
    <AppBookSales></AppBookSales>
    <AppWhyCourses></AppWhyCourses>
+   <AppStatistics></AppStatistics>
   </main>
   <PageFooter></PageFooter>
 </template>
