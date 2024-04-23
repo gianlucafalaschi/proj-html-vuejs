@@ -1,7 +1,7 @@
 <script>
 export default {
     props: {
-        headerInfo: Object
+        headerInfos: Object
     },
 }
 </script>
@@ -18,7 +18,7 @@ export default {
                     <div class="ms-links-section me-4">
                         <nav>
                             <ul class="ms-links d-flex align-items-center mb-0">
-                                <li>Ciao</li>
+                                <li v-for="headerInfo in headerInfos">Ciao</li>
                                 <li>Ciao</li>
                                 <li>Ciao</li>
                                 <li>Ciao</li>

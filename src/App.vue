@@ -21,9 +21,9 @@ export default  {
           {
             text: 'Courses',
           },
-         /*  {
+          {
             text: 'Course Formats',
-          }, */
+          }, 
         ]
       };
     },
