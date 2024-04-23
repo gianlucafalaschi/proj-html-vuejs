@@ -33,6 +33,20 @@ export default  {
           {
             text: 'Demos',
           }, 
+        ],
+        socials: [
+          {
+            social: "fa-brands fa-linkedin",
+          },
+          {
+            social: "fa-brands fa-instagram",
+          },
+          {
+            social: "fa-brands fa-facebook",
+          },
+          {
+            social: "fa-brands fa-twitter",
+          },
         ]
       };
     },
@@ -41,7 +55,7 @@ export default  {
 
 <template>
   <!--  passo al'array headerInfos  nelle props di PageHeader l'array headerLinks  -->
-  <PageHeader :headerInfos="headerLinks"></PageHeader> 
+  <PageHeader :headerInfos="headerLinks" :headerSocials="socials"></PageHeader> 
   <main>
     <AppHero></AppHero>
     <AppFounder></AppFounder>

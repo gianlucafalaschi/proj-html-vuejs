@@ -1,7 +1,8 @@
 <script>
 export default {
     props: {
-        headerInfos: Array
+        headerInfos: Array,
+        headerSocials:Array
     },
 }
 </script>
@@ -27,10 +28,7 @@ export default {
                     </div>
                     <div class="ms-socials-section d-flex align-items-center ">
                         <ul class="ms-socials-links d-flex align-items-center mb-0">
-                            <li><i class="fa-brands fa-facebook"></i></li>
-                            <li><i class="fa-brands fa-facebook"></i></li>
-                            <li><i class="fa-brands fa-facebook"></i></li>
-                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li v-for="headerSocial in headerSocials"><i :class="headerSocial.social"></i></li>
                         </ul>
                     </div>
                 </div>
