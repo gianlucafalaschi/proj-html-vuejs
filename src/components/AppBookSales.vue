@@ -16,7 +16,6 @@
                         </a>
                     </div>
                 </div>
-                <div class="ms-col-50 ms-col-50-right"></div>
             </div>
         </div>
     </section>
@@ -37,6 +36,10 @@ section {
 
 .ms-row {
     display: flex;
+    background-image: url('../assets/img/book.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:bottom right;
 }
 
 .ms-col-50-left {
