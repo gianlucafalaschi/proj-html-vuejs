@@ -5,8 +5,10 @@
 
 <template>
     <section class="founder">
+        <!-- LIMITED OFFER  -->
         <div class="ms-container-85">
             <div class="ms-row ms-row-offers d-flex rounded-2 ">
+                <!-- left col -->
                 <div class="ms-col-50  ms-col-50-offer-left p-4">
                     <div class="ms-title-offer mb-3">
                         <h4><span class="text-white">Limited Sale:</span> <span>All courses with 55% off</span></h4>
@@ -16,6 +18,7 @@
                         <button class="ms-button" type="button">SUBSCRIBE</button>
                     </div>
                 </div>
+                <!-- right col -->
                 <div class="ms-col-50 ms-col-50-offer-right d-flex flex-wrap align-items-center gap-4 p-4">
                     <div class="ms-time-container">
                         <div class="text-center text-white fw-bold fs-1">26</div>
@@ -36,14 +39,18 @@
                 </div>
             </div>
         </div>
+        <!--/ LIMITED OFFER  -->
+        <!-- FOUNDER DECLARATION -->
         <div class="ms-container-80">
             <div class="ms-row d-flex my-5">
+                <!-- left col -->
                 <div class="ms-col-50 ms-col-50-left my-5 pe-5">
                     <h3>Hey there, my name is John Doe. I'm the founder of the Brain Academy</h3>
                     <div class="signature-image-container mt-4 d-flex justify-content-center">
                         <img src="../assets/img/sign.jpg" alt="founder's signature">
                     </div>
                 </div>
+                <!-- right col -->
                 <div class="ms-col-50 ms-col-50-right my-5">
                     <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
                         which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot,
@@ -56,6 +63,7 @@
                 </div>
             </div>
         </div>
+        <!--/ FOUNDER DECLARATION -->
     </section>
 </template>
 
