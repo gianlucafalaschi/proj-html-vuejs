@@ -68,8 +68,8 @@ section.ms-statistics{
 }
 
 .ms-stats-numbers {
-    color:$color-second ;
-    font-size:30px;
+    color: $color-second ;
+    font-size: 35px;
 }
 
 </style>

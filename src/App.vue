@@ -8,6 +8,7 @@ import AppNewCourses from './components/AppNewCourses.vue';
 import AppBookSales from './components/AppBookSales.vue';
 import AppWhyCourses from './components/AppWhyCourses.vue';
 import AppStatistics from './components/AppStatistics.vue';
+import AppReviews from './components/AppReviews.vue';
 
 
 export default  {
@@ -20,6 +21,7 @@ export default  {
         AppBookSales,
         AppWhyCourses,
         AppStatistics,
+        AppReviews,
     },
     data() {
       return {
@@ -69,6 +71,7 @@ export default  {
    <AppBookSales></AppBookSales>
    <AppWhyCourses></AppWhyCourses>
    <AppStatistics></AppStatistics>
+   <AppReviews></AppReviews>
   </main>
   <PageFooter></PageFooter>
 </template>
