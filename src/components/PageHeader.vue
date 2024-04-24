@@ -22,14 +22,14 @@ export default {
                                 <!--  dopo aver passato al'array headerInfos  nelle props di PageHeader l'array headerLinks,
                                 Per ogni elemento di nell'array headerInfos,
                                 stampo text  -->
-                                <li v-for="headerInfo in headerInfos"><a class="fw-bold" href="#">{{ headerInfo.text }}</a></li>
+                                <li class="py-3" v-for="headerInfo in headerInfos"><a class="fw-bold" href="#">{{ headerInfo.text }}</a></li>
                                 <span class="badge text-bg-danger">NEW</span>
                             </ul>
                         </nav>
                     </div>
                     <div class="ms-socials-section d-flex align-items-center ">
                         <ul class="ms-socials-links d-flex align-items-center mb-0">
-                            <li v-for="headerSocial in headerSocials"><a href="#"><i :class="headerSocial.social"></i></a></li>
+                            <li class="py-3" v-for="headerSocial in headerSocials"><a href="#"><i :class="headerSocial.social"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,6 +63,14 @@ border: 1px dashed black;
 ul.ms-links {
     list-style: none;
     gap: 15px;
+    
+    li {
+        border: 3px solid transparent;
+        &:hover{
+            border-bottom: 3px solid $color-second;
+        }
+    }
+    
     
 }
 
