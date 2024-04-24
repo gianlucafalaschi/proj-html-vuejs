@@ -288,5 +288,11 @@ section {
     padding: 6px 10px;
     font-weight: bold;
     font-size: 14px;
+
+    &:hover {
+        background-color: #D9A61B;
+    }
 }
+
+
 </style>
