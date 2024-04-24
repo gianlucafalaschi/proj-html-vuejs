@@ -45,15 +45,29 @@
                 </div>
                 <!-- column Blog -->
                 <div class="ms-col-4">
+                    <!-- blog -->
                     <h4 class="ms-col-title">ABOUT</h4>
-                    <ul class="ms-maps d-flex flex-wrap gap-5">
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
+                    <div class="ms-blog-container d-flex flex-wrap gap-3 mb-3">
+                        <div class="ms-image-container">
+                            <img src="../assets/img/photo-1517520287167-4bbf64a00d66-75x75.jpeg" alt="immagine del blog">
+                        </div>
+                        <div class="ms-blog-description">
+                            <h5 class="ms-blog-title">Blog title</h5>
+                            <span class="ms-blog-date">Blog date</span>
+                        </div>
+                    </div>
+                    <!-- /blog -->
+                    <!-- blog -->
+                    <div class="ms-blog-container d-flex flex-wrap gap-3 mb-3">
+                        <div class="ms-image-container">
+                            <img src="../assets/img/photo-1517520287167-4bbf64a00d66-75x75.jpeg" alt="immagine del blog">
+                        </div>
+                        <div class="ms-blog-description">
+                            <h5 class="ms-blog-title">Blog title</h5>
+                            <span class="ms-blog-date">Blog date</span>
+                        </div>
+                    </div>
+                    <!--/ blog -->
                 </div>
             </div>
         </div>
@@ -88,4 +102,21 @@ li {
         text-decoration:none;
     }
 }
+
+.ms-blog-description {
+
+    .ms-blog-date {
+        color:$color-sixth;
+    }
+}
+
+.ms-image-container {
+    width: 70px;
+    height: 70px;
+
+    img {
+        width: 100%;
+    }
+}
+
 </style>
