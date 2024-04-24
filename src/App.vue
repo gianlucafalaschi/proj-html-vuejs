@@ -58,27 +58,21 @@ export default  {
         ],
         footerLinks: [
           {
-            title: 'PAGES',
             text: 'Blog'
           },
           {
-            title: 'PAGES',
             text: 'Courses'
           },
           {
-            title: 'PAGES',
             text: 'Home'
           },
           {
-            title: 'PAGES',
             text: 'Membership A..'
           },
           {
-            title: 'PAGES',
             text: 'Shortcodes'
           },
           {
-            title: 'PAGES',
             text: 'Typography'
           },
         ],
