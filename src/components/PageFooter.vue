@@ -20,10 +20,8 @@ export default {
                 <!-- column About -->
                 <div class="ms-col-4">
                     <h4 class="ms-col-title">ABOUT</h4>
-                    <p class="ms-col-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia,
-                        neque id. Minus ad nostrum reprehenderit asperiores, omnis magni aliquid animi numquam beatae,
-                        quidem quia non distinctio odit nihil tempora iusto?</p>
-                    <div class="ms-socials-container d-flex gap-3">
+                    <p class="ms-col-description">Masterstudy is education WordPress theme featured by Learning Management System (LMS) for online education.<br>Developed by StylemixThemes</p>
+                    <div class="ms-socials-container d-flex gap-3 fs-4">
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-instagram"></i>
@@ -34,10 +32,10 @@ export default {
                     <h4 class="ms-col-title">ABOUT</h4>
                     <div class="ms-col-description">
                        <address>
-                            <div class="ms-address mb-2">Indirizzo</div>
-                            <div class="ms-phone">43343433434o</div>
-                            <div class="ms-phone mb-2">43343433434o</div>
-                            <div class="ms-email">email</div>
+                            <div class="ms-address mb-2">USA, California 20, First Avenue, California</div>
+                            <div class="ms-phone">Tel.:+1 212 458 300 32</div>
+                            <div class="ms-phone mb-2">FAX.: +1 212 375 24 14</div>
+                            <div class="ms-email">info@masterstudy.com</div>
                        </address>
                     </div>
                 </div>
@@ -82,10 +80,10 @@ footer {
 }
 
 .ms-col-4 {
-    background-color: coral;
+    
     width: calc(100% / 4);
     color: $color-third;
-
+    word-wrap: break-word;
 }
 
 .ms-maps {
@@ -93,7 +91,7 @@ footer {
 }
 
 li {
-
+    
     a {
         
         color: $color-third;
@@ -101,7 +99,7 @@ li {
     }
 }
 
-
+/* blog */
 
 .ms-blog-description {
 
