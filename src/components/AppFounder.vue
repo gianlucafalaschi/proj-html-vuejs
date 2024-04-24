@@ -115,7 +115,7 @@ section {
     font-size: 14px;
     padding: 6px 8px;
     color: white;
-    background-color: $color-third;
+    background-color: $color-fourth;
 }
 
 

@@ -104,7 +104,7 @@ li {
 .ms-blog-description {
 
     .ms-blog-date {
-        color:$color-sixth;
+        color:$color-fourth;
     }
 }
 
