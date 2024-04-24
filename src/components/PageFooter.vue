@@ -1,5 +1,9 @@
 <script>
-
+export default {
+    props: {
+        aboutLinks: Array,
+    }
+}
 </script>
 
 
@@ -33,14 +37,9 @@
                 </div>
                 <!-- column Pages -->
                 <div class="ms-col-4">
-                    <h4 class="ms-col-title">ABOUT</h4>
+                    <h4 class="ms-col-title">Pages</h4>
                     <ul class="ms-maps d-flex flex-wrap gap-5">
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li v-for="singleAboutLink in aboutLinks "><a href="#">{{singleAboutLink.text}}</a></li>
                     </ul>
                 </div>
                 <!-- column Blog -->

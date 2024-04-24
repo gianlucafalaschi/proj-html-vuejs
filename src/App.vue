@@ -55,14 +55,42 @@ export default  {
           {
             social: "fa-brands fa-twitter",
           },
-        ]
+        ],
+        footerLinks: [
+          {
+            title: 'PAGES',
+            text: 'Blog'
+          },
+          {
+            title: 'PAGES',
+            text: 'Courses'
+          },
+          {
+            title: 'PAGES',
+            text: 'Home'
+          },
+          {
+            title: 'PAGES',
+            text: 'Membership A..'
+          },
+          {
+            title: 'PAGES',
+            text: 'Shortcodes'
+          },
+          {
+            title: 'PAGES',
+            text: 'Typography'
+          },
+        ],
+
+        
       };
     },
 }
 </script>
 
 <template>
-  <!--  passo al'array headerInfos  nelle props di PageHeader l'array headerLinks  -->
+  <!--  passo al'array headerInfos  nelle props di PageHeader l'array headerLinks e l'array socials  -->
   <PageHeader :headerInfos="headerLinks" :headerSocials="socials"></PageHeader> 
   <main>
     <AppHero></AppHero>
@@ -73,7 +101,9 @@ export default  {
    <AppStatistics></AppStatistics>
    <AppReviews></AppReviews>
   </main>
-  <PageFooter></PageFooter>
+  <!-- passo all'array aboutLinks nelle props di PageFooter
+  l'array footerLinks -->
+  <PageFooter :aboutLinks="footerLinks"></PageFooter>
 </template>
 
 <style lang="scss">
