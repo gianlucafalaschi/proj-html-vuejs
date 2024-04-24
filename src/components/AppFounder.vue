@@ -41,7 +41,7 @@
         </div>
         <!--/ LIMITED OFFER  -->
         <!-- FOUNDER DECLARATION -->
-        <div class="ms-container-80">
+        <div class="ms-container-80 pt-5">
             <div class="ms-row d-flex my-5">
                 <!-- left col -->
                 <div class="ms-col-50 ms-col-50-left my-5 pe-5">
