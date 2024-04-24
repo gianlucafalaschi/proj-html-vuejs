@@ -29,7 +29,7 @@ export default {
                 </div>
                 <!-- column Contact -->
                 <div class="ms-col-4">
-                    <h4 class="ms-col-title">ABOUT</h4>
+                    <h4 class="ms-col-title">CONTACT</h4>
                     <div class="ms-col-description">
                        <address>
                             <div class="ms-address mb-2">USA, California 20, First Avenue, California</div>
@@ -41,7 +41,7 @@ export default {
                 </div>
                 <!-- column Pages -->
                 <div class="ms-col-4">
-                    <h4 class="ms-col-title">Pages</h4>
+                    <h4 class="ms-col-title">PAGES</h4>
                     <ul class="ms-maps d-flex flex-wrap gap-5">
                         <!-- dopo aver passato con le props le informazioni presenti in App.vue dell'array footerLinks  all'array footerLinksInfos 
                     per ogni elemento  in  footerLinksInfos stampo-->
