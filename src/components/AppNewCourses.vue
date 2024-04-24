@@ -14,6 +14,7 @@
                 <div class="ms-card">
                     <div class="ms-image-container">
                         <img class="ms-card-image" src="../assets/img/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" alt="">
+                        <span class="badge text-bg-warning text-white py-2">SPECIAL</span>
                     </div>
                     <div class="ms-card-description p-3">
                         <h4 class="ms-card-title text-center pb-3 mb-0">How to be a DJ? Make Electronic Music</h4>
@@ -39,6 +40,7 @@
                 <div class="ms-card">
                     <div class="ms-image-container">
                         <img class="ms-card-image" src="../assets/img/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" alt="">
+                        <span class="badge text-bg-warning text-white py-2">SPECIAL</span>
                     </div>
                     <div class="ms-card-description p-3">
                         <h4 class="ms-card-title text-center pb-3 mb-0">How to be a DJ? Make Electronic Music</h4>
@@ -64,6 +66,7 @@
                 <div class="ms-card">
                     <div class="ms-image-container">
                         <img class="ms-card-image" src="../assets/img/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" alt="">
+                        <span class="badge text-bg-warning text-white py-2">SPECIAL</span>
                     </div>
                     <div class="ms-card-description p-3">
                         <h4 class="ms-card-title text-center pb-3 mb-0">How to be a DJ? Make Electronic Music</h4>
@@ -188,9 +191,15 @@ section {
 
 .ms-image-container {
     width: 100%;
+    position: relative;
 
     .ms-card-image {
         width: 100%;
+    }
+    .badge {
+        position: absolute;
+        top:8px;
+        right: 8px;
     }
 }
 
