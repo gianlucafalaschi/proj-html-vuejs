@@ -63,6 +63,7 @@ border: 1px dashed black;
 ul.ms-links {
     list-style: none;
     gap: 15px;
+    
 }
 
 ul.ms-socials-links {
