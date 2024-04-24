@@ -1,7 +1,7 @@
 <script>
 export default {
     props: {
-        aboutLinks: Array,
+        footerLinksInfos: Array,
     }
 }
 </script>
@@ -39,7 +39,7 @@ export default {
                 <div class="ms-col-4">
                     <h4 class="ms-col-title">Pages</h4>
                     <ul class="ms-maps d-flex flex-wrap gap-5">
-                        <li v-for="singleAboutLink in aboutLinks "><a href="#">{{singleAboutLink.text}}</a></li>
+                        <li class="ms-pages-links" v-for="footerLinkInfo in footerLinksInfos"><a href="#">{{footerLinkInfo.text}}</a></li>
                     </ul>
                 </div>
                 <!-- column Blog -->
@@ -101,6 +101,8 @@ li {
         text-decoration:none;
     }
 }
+
+
 
 .ms-blog-description {
 

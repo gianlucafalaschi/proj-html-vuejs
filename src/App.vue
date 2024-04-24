@@ -82,7 +82,6 @@ export default  {
             text: 'Typography'
           },
         ],
-
         
       };
     },
@@ -101,9 +100,9 @@ export default  {
    <AppStatistics></AppStatistics>
    <AppReviews></AppReviews>
   </main>
-  <!-- passo all'array aboutLinks nelle props di PageFooter
+  <!-- passo all'array footerLinksInfos nelle props di PageFooter
   l'array footerLinks -->
-  <PageFooter :aboutLinks="footerLinks"></PageFooter>
+  <PageFooter :footerLinksInfos="footerLinks"></PageFooter>
 </template>
 
 <style lang="scss">
