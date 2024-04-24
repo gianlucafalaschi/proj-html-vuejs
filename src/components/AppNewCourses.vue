@@ -39,7 +39,7 @@
                 <!-- card 2 -->
                 <div class="ms-card">
                     <div class="ms-image-container">
-                        <img class="ms-card-image" src="../assets/img/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" alt="">
+                        <img class="ms-card-image" src="../assets/img/12345-1-740x400.png" alt="">
                         <span class="badge text-bg-warning text-white py-2">SPECIAL</span>
                     </div>
                     <div class="ms-card-description p-3">
@@ -65,7 +65,7 @@
                 <!-- card 3 -->
                 <div class="ms-card">
                     <div class="ms-image-container">
-                        <img class="ms-card-image" src="../assets/img/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" alt="">
+                        <img class="ms-card-image" src="../assets/img/photo-1491897554428-130a60dd4757-740x400.jpeg" alt="">
                         <span class="badge text-bg-warning text-white py-2">SPECIAL</span>
                     </div>
                     <div class="ms-card-description p-3">
@@ -91,7 +91,7 @@
                 <!-- card 4 -->
                 <div class="ms-card">
                     <div class="ms-image-container">
-                        <img class="ms-card-image" src="../assets/img/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" alt="">
+                        <img class="ms-card-image" src="../assets/img/photo-1416339134316-0e91dc9ded92-740x400.jpeg" alt="">
                     </div>
                     <div class="ms-card-description p-3">
                         <h4 class="ms-card-title text-center pb-3 mb-0">How to be a DJ? Make Electronic Music</h4>
@@ -116,7 +116,7 @@
                 <!-- card 5 -->
                 <div class="ms-card">
                     <div class="ms-image-container">
-                        <img class="ms-card-image" src="../assets/img/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" alt="">
+                        <img class="ms-card-image" src="../assets/img/cathryn-lavery-67852-unsplash-740x400.jpg" alt="">
                     </div>
                     <div class="ms-card-description p-3">
                         <h4 class="ms-card-title text-center pb-3 mb-0">How to be a DJ? Make Electronic Music</h4>
@@ -141,7 +141,7 @@
                 <!-- card 6 -->
                 <div class="ms-card">
                     <div class="ms-image-container">
-                        <img class="ms-card-image" src="../assets/img/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" alt="">
+                        <img class="ms-card-image" src="../assets/img/photo-1475452779376-caebfb988090-740x400.jpeg" alt="">
                     </div>
                     <div class="ms-card-description p-3">
                         <h4 class="ms-card-title text-center pb-3 mb-0">How to be a DJ? Make Electronic Music</h4>
