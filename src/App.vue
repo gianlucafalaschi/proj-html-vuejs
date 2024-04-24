@@ -78,12 +78,12 @@ export default  {
         ],
         footerBlog: [
           {
-            image: 'photo-1517520287167-4bbf64a00d66-75x75',
+            image: 'photo-1517520287167-4bbf64a00d66-75x75.jpeg',
             title: 'Our main target is to "Developing Yourself as a Leader"',
             date: 'August 9, 2018',
           },
           {
-            image: 'photo-1490376840453-5f616fbebe5b-75x75',
+            image: 'photo-1490376840453-5f616fbebe5b-75x75.jpeg',
             title:'Those Other College Expenses You Arent \'t Thinking About',
             date: 'June 3, 2015',
           },

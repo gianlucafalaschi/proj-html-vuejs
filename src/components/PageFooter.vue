@@ -3,6 +3,11 @@ export default {
     props: {
         footerLinksInfos: Array,
         blogInfos: Array,
+    },
+    methods: {
+        getImageUrl(name) {
+                return new URL(`../assets/img/${name}`, import.meta.url).href;
+            }
     }
 }
 </script>
@@ -49,7 +54,7 @@ export default {
                     <h4 class="ms-col-title">BLOG</h4>
                     <div v-for="singleBlogInfo in blogInfos" class="ms-blog-container d-flex flex-wrap gap-3 mb-3">
                         <div class="ms-image-container">
-                            <img src="../assets/img/photo-1517520287167-4bbf64a00d66-75x75.jpeg" alt="immagine del blog">
+                            <img :src="getImageUrl(singleBlogInfo.image)" alt="immagine del blog">
                         </div>
                         <div class="ms-blog-description">
                             <h5 class="ms-blog-title">{{singleBlogInfo.title}}</h5>
