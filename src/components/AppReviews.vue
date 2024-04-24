@@ -48,7 +48,6 @@ section {
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px dashed black;
 }
 
 .ms-round-container-big {

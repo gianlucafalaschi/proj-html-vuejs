@@ -50,15 +50,6 @@ h1 {
     color: $color-second;
 }
 
-.ms-container-80 {
-border: 1px dashed black;
-  
-}
-
-.ms-row {
-    border: 1px dashed black;
-
-}
 
 ul.ms-links {
     list-style: none;

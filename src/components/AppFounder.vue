@@ -81,7 +81,6 @@ section {
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px dashed black;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -70%);
@@ -89,7 +88,6 @@ section {
 }
 
 .ms-row-offers {
-    border: 1px dashed red;
     background-color: $color-second;
 }
 
