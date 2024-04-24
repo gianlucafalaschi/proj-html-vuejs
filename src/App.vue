@@ -76,7 +76,18 @@ export default  {
             text: 'Typography'
           },
         ],
-        
+        footerBlog: [
+          {
+            image: 'photo-1517520287167-4bbf64a00d66-75x75',
+            title: 'Our main target is to "Developing Yourself as a Leader"',
+            date: 'August 9, 2018',
+          },
+          {
+            image: 'photo-1490376840453-5f616fbebe5b-75x75',
+            title:'Those Other College Expenses You Arent \'t Thinking About',
+            date: 'June 3, 2015',
+          },
+        ],
       };
     },
 }
@@ -96,7 +107,7 @@ export default  {
   </main>
   <!-- passo all'array footerLinksInfos nelle props di PageFooter
   l'array footerLinks -->
-  <PageFooter :footerLinksInfos="footerLinks"></PageFooter>
+  <PageFooter :footerLinksInfos="footerLinks" :blogInfos="footerBlog"></PageFooter>
 </template>
 
 <style lang="scss">
