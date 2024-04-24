@@ -15,6 +15,8 @@
                     <div class="ms-image-container">
                         <img class="ms-card-image" src="../assets/img/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" alt="">
                         <span class="badge text-bg-warning text-white py-2">SPECIAL</span>
+                        <!-- prezzo che compare solo all'hover del mouse sulla card -->
+                        <div class="ms-background-hover">ciao</div>
                         <span class="ms-price-hover text-white fw-bold fs-4">$59</span>
                     </div>
                     <div class="ms-card-description p-3">
@@ -188,11 +190,14 @@ section {
     margin-top:12px;
     margin-bottom:12px;
     background-color: $color-first;
+
 }
 
 .ms-image-container {
     width: 100%;
     position: relative;
+    
+
 
     .ms-card-image {
         width: 100%;
@@ -203,14 +208,48 @@ section {
         right: 8px;
     }
 
+    .ms-background-hover {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index: 100;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+
     .ms-price-hover {
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        display: none;
     }
 
 }
+
+/* card-hover effects */
+.ms-card {
+    &:hover {
+        .ms-card-image {
+            
+            
+        }
+        
+        .ms-background-hover {
+            opacity: 50%;
+        }
+
+        .ms-price-hover {
+            display: block;
+        }
+    }
+}
+        
+ 
+/*/ card-hover effects */
 
 
 .ms-card-subtitle {
