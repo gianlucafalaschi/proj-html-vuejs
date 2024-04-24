@@ -16,7 +16,7 @@ export default {
 <template>
     <footer>
         <div class="ms-container-80">
-            <div class="ms-row d-flex gap-4">
+            <div class="ms-row py-5 d-flex gap-4">
                 <!-- column About -->
                 <div class="ms-col-4">
                     <h4 class="ms-col-title">ABOUT</h4>
