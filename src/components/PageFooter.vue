@@ -45,6 +45,8 @@ export default {
                 <div class="ms-col-4">
                     <h4 class="ms-col-title">Pages</h4>
                     <ul class="ms-maps d-flex flex-wrap gap-5">
+                        <!-- dopo aver passato con le props le informazioni presenti in App.vue dell'array footerLinks  all'array footerLinksInfos 
+                    per ogni elemento  in  footerLinksInfos stampo-->
                         <li class="ms-pages-links" v-for="footerLinkInfo in footerLinksInfos"><a href="#">{{footerLinkInfo.text}}</a></li>
                     </ul>
                 </div>
@@ -52,6 +54,8 @@ export default {
                 <div class="ms-col-4">
                     <!-- single blogs -->
                     <h4 class="ms-col-title">BLOG</h4>
+                    <!-- dopo aver passato con le props le informazioni presenti in App.vue dell'array footerBlog  all'array blogInfos 
+                    per ogni elemento  in  blogInfo stampo-->
                     <div v-for="singleBlogInfo in blogInfos" class="ms-blog-container d-flex flex-wrap gap-3 mb-3">
                         <div class="ms-image-container">
                             <img :src="getImageUrl(singleBlogInfo.image)" alt="immagine del blog">

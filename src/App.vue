@@ -94,7 +94,8 @@ export default  {
 </script>
 
 <template>
-  <!--  passo al'array headerInfos  nelle props di PageHeader l'array headerLinks e l'array socials  -->
+  <!--  passo al'array headerInfos  nelle props di PageHeader l'array headerLinks 
+    e passo nell'array headerSocials l'array socials  -->
   <PageHeader :headerInfos="headerLinks" :headerSocials="socials"></PageHeader> 
   <main>
     <AppHero></AppHero>
@@ -106,7 +107,8 @@ export default  {
    <AppReviews></AppReviews>
   </main>
   <!-- passo all'array footerLinksInfos nelle props di PageFooter
-  l'array footerLinks -->
+  l'array footerLinks
+e nell'array blogInfos passo l'array footerBlog -->
   <PageFooter :footerLinksInfos="footerLinks" :blogInfos="footerBlog"></PageFooter>
 </template>
 
