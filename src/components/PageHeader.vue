@@ -4,6 +4,17 @@ export default {
         headerInfos: Array,
         headerSocials:Array
     },
+     data(){
+        return {
+            activeLink: 1,  
+        }
+     },
+     methods: {
+        /* funzione che assegna al valore di activeLink il valore di index  */
+        elementIsActive: function(index){
+            this.activeLink = index;
+        }
+     }
 }
 </script>
 
@@ -22,7 +33,8 @@ export default {
                                 <!--  dopo aver passato al'array headerInfos  nelle props di PageHeader l'array headerLinks,
                                 Per ogni elemento di nell'array headerInfos,
                                 stampo text  -->
-                                <li class="py-3" v-for="headerInfo in headerInfos"><a class="fw-bold" href="#">{{ headerInfo.text }}</a></li>
+                                <li class="py-3" v-for="headerInfo, index in headerInfos" @click="elementIsActive(index)"><a class="fw-bold" href="#">{{ headerInfo.text }}</a></li>
+                                <div>{{ activeLink }}</div>
                                 <span class="badge text-bg-danger">NEW</span>
                             </ul>
                         </nav>
