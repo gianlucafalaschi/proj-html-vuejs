@@ -95,10 +95,10 @@ section {
     }
 }   
 
-.ms-image-container {
+/* .ms-image-container {
     width: 100%;
 
-}
+} */
 
 
 .ms-card-subtitle {
@@ -110,7 +110,7 @@ section {
     font-size: 35px;
 }
 
-.ms-button {
+/* .ms-button {
     color:$color-first;
     background-color: $color-second;
     border: none;
@@ -118,5 +118,5 @@ section {
     padding: 6px 10px;
     font-weight: bold;
     font-size: 14px;
-}
+} */
 </style>
