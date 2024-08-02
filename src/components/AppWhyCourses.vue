@@ -70,7 +70,7 @@ section {
 }
 
 .ms-card {
-    width: calc((100% / 2) - 24px);
+    width: 100%;
     margin-left: 12px;
     margin-right: 12px;
     margin-top:12px;
@@ -78,7 +78,21 @@ section {
     background-color: $color-first;
     border-left: 3px solid $color-second;
     box-shadow: 5px 10px 18px $color-sixth;
+
+    
 }
+
+.ms-card-description {
+    width: 100%;  
+
+    
+    .ms-card-title {
+        word-break: break-word;
+    }
+    
+    }
+
+
 
 .ms-card:hover {
     background-color:$color-second ;
@@ -101,6 +115,7 @@ section {
 } */
 
 
+
 .ms-card-subtitle {
     color: $color-sixth;
 }
@@ -119,4 +134,30 @@ section {
     font-weight: bold;
     font-size: 14px;
 } */
+
+/* MEDIA QUERIES */
+
+/*----------------
+    COLUMNS per XS > 0px
+-----------------*/
+
+/*----------------
+    COLUMNS per SM >= 576px
+-----------------*/
+@media screen and (min-width: 576px) {
+
+
+}
+
+/*----------------
+COLUMNS per MD >= 768px
+-----------------*/
+@media screen and (min-width: 768px) {
+
+    .ms-card {
+        width:calc((100% / 2) - 24px);
+    }
+
+}
+
 </style>
