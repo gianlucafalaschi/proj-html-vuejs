@@ -82,9 +82,13 @@ footer {
 
 .ms-col-4 {
     
-    width: calc(100% / 4 - 1rem);
+    width: calc(100% / 2 - 1rem);
+    margin-bottom: 10px;
     color: $color-third;
-    word-wrap: break-word;
+}
+
+.ms-socials-container {
+    cursor: pointer;
 }
 
 .ms-maps {
@@ -119,6 +123,20 @@ li {
     img {
         width: 100%;
     }
+}
+
+/* MEDIA QUERIES */
+
+/*----------------
+COLUMNS per LG >= 992px
+-----------------*/
+@media screen and (min-width: 992px) {
+
+    .ms-col-4 {
+        width: calc(100% / 4 - 1rem);
+    
+    }
+
 }
 
 </style>
