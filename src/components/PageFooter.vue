@@ -16,7 +16,7 @@ export default {
 <template>
     <footer>
         <div class="ms-container-80">
-            <div class="ms-row py-5 d-flex gap-4">
+            <div class="ms-row py-5 d-flex gap-2">
                 <!-- column About -->
                 <div class="ms-col-4">
                     <h4 class="ms-col-title">ABOUT</h4>
@@ -42,7 +42,7 @@ export default {
                 <!-- column Pages -->
                 <div class="ms-col-4">
                     <h4 class="ms-col-title">PAGES</h4>
-                    <ul class="ms-maps d-flex flex-wrap gap-5">
+                    <ul class="ms-maps d-flex flex-column gap-1">
                         <!-- dopo aver passato con le props le informazioni presenti in App.vue dell'array footerLinks  all'array footerLinksInfos 
                     per ogni elemento  in  footerLinksInfos stampo-->
                         <li class="ms-pages-links" v-for="footerLinkInfo in footerLinksInfos"><a href="#">{{footerLinkInfo.text}}</a></li>
@@ -79,9 +79,10 @@ footer {
     background-color: $color-second ;
 }
 
+
 .ms-col-4 {
     
-    width: calc(100% / 4);
+    width: calc(100% / 4 - 1rem);
     color: $color-third;
     word-wrap: break-word;
 }
@@ -100,6 +101,9 @@ li {
 }
 
 /* blog */
+.ms-row {
+    flex-wrap: wrap;
+}
 
 .ms-blog-description {
 

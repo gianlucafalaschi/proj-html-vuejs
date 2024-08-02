@@ -26,7 +26,7 @@ export default {
                 <div class="ms-logo-section d-flex">
                     <img src="../assets/img/MasterStudy-1.svg" alt="">
                 </div>
-                <div class="ms-links-socials d-flex">
+                <div class="ms-links-socials d-flex flex-wrap">
                     <div class="ms-links-section me-4">
                         <nav>
                             <ul class="ms-links d-flex align-items-center flex-wrap mb-0">
@@ -102,7 +102,6 @@ li {
     }
     
 }
-
 
 
 </style>
